@@ -14,6 +14,9 @@
 #include <map>
 #include <exception>
 #include <time.h>
+#include <cstdio>
+#include <cstdlib>
+#include <string.h>
 
 /// \namespace stactiverecord The project's namespace
 namespace stactiverecord {

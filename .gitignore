@@ -35,3 +35,5 @@ stactiverecord/config.h.in
 stactiverecord/stamp-h1
 tests/db_test
 tests/object_test
+TAGS
+
