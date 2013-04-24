@@ -6,3 +6,5 @@ db_test_LDFLAGS = -lstactiverecord -L$(HEADERDIR)/.libs
 
 object_test_SOURCES = object_test.cpp
 object_test_LDFLAGS = -lstactiverecord -L$(HEADERDIR)/.libs
+
+INCLUDES = ${SQLITE3_CFLAGS} ${MYSQL_CFLAGS} ${POSTGRESQL_CFLAGS}

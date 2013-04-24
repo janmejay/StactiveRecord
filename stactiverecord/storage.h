@@ -175,7 +175,7 @@ namespace stactiverecord {
 #endif
 
 #ifdef HAVE_MYSQL
-#include <mysql/mysql.h>
+#include "mysql.h"
   class MySQLStorage : public Sar_Dbi {
   private:
     void close();

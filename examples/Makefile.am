@@ -1,5 +1,7 @@
 noinst_PROGRAMS = dbs many_to_many one_to_many one_to_one querying simple
 
+INCLUDES = ${SQLITE3_CFLAGS} ${MYSQL_CFLAGS} ${POSTGRESQL_CFLAGS}
+
 LIBDIR = ../stactiverecord
 
 dbs_SOURCES = dbs.cpp  
